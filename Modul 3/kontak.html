@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="id">
-<head >
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport"   content=""width=device-width.   initial scale="1,0">
-    <title>Modul 2 - from kontak</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - A. Muharam Zamzam Mubarok</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>Formulir kontak</h1>
+        <h1>Formulir Kontak</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="kontak.html" aria-current="page">Kontak Saya</a></li>
+            </ul>
+        </nav>
     </header>
+
     <hr>
 
     <main>
@@ -18,31 +31,28 @@
             <form>
 
                 <p>
-                    <label  for="nama_pengirim">Nama    Lengkap Anda:</label><br>
-                    <input  type="text"     id="nama_pengirim" name="nama_pengirim">
-                </p>
-                
-                <p>
-                    <label  for="email_pengirim">Alamat Email:</label><br>
+                    <label for="nama_pengirim">Nama Lengkap Anda:</label><br>
+                    <input type="text" id="nama_pengirim" name="nama_pengirim">
                 </p>
 
                 <p>
-                    <input  type="email"       id="email_pengirim" name="'email+pengirim">
+                    <label for="email_pengirim">Alamat Email:</label><br>
+                    <input type="email" id="email_pengirim" name="email_pengirim">
                 </p>
 
                 <p>
-                    <label      for="jenis_layanan">Layanan     yang dibutuhkan:</label><br>
+                    <label for="jenis_layanan">Layanan yang dibutuhkan:</label><br>
                     <select id="jenis_layanan" name="jenis_layanan">
-                        <option value="">--Pilih Layanan --</option>
-                        <option     value="app">Pembuatan Web</option>
-                        <option     value="app">Pengembangan Aplikasi</option>
+                        <option value="">-- Pilih Layanan --</option>
+                        <option value="web">Pembuatan Web</option>
+                        <option value="app">Pengembangan Aplikasi</option>
                         <option value="other">Lain-lain</option>
                     </select>
                 </p>
 
                 <p>
                     <label for="pesan">Pesan:</label><br>
-                    <textarea id="pesan" name="pesan" rows="6"cols="50"></textarea>    
+                    <textarea id="pesan" name="pesan" rows="6"></textarea>
                 </p>
 
                 <p>
@@ -55,8 +65,9 @@
 
     <hr>
 
-    <pooter>
+    <footer>
         <p>&copy; 2026 Teknik Informatika ITG</p>
-    </pooter>
+    </footer>
+
 </body>
 </html>
