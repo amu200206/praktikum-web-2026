@@ -1,7 +1,7 @@
 # Repositori Praktikum Pemrograman Web 2026
 **Informasi Mahasiswa:**
-* **Nama:** [MUHAMMAD IQBAL SYARIEF]
-* **NIM:** [2406114]
+* **Nama:** [A. MUHARAM ZAMZAM MUBAROK]
+* **NIM:** [2406038]
 * **Kelas/Prodi:** Teknik Informatika - ITG
 * **Kode MK:** IFRWP5151
 ---
